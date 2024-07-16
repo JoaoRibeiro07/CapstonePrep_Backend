@@ -1,10 +1,10 @@
-const { registerQuery } = require("../queries/userQueries");
 const {
   loginQuery,
   getAllUser,
   destroyUser,
   alterUser,
-} = require("../queries/userQueries");
+  registerQuery,
+} = require("../queries/userQuery");
 
 const register = async (req, res) => {
   const token = await registerQuery(req.body);
