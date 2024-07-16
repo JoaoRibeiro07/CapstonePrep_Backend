@@ -1,5 +1,5 @@
 const { route } = require("../shared/shared");
-const { findUserWithToken } = require("../queries/userQueries");
+const { findUserWithToken } = require("../queries/userQuery");
 const {
   register,
   login,
